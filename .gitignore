@@ -1,3 +1,8 @@
+
+# not to track mongo db
+mongodb_demo.ipynb
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
