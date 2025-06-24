@@ -2,7 +2,8 @@
 # not to track mongo db
 notebook/mongodb_demo.ipynb
 
-
+# no tracking for dotenv file
+.env
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
