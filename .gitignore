@@ -2,6 +2,8 @@
 # not to track mongo db
 notebook/mongodb_demo.ipynb
 
+credentials.txt
+
 # no tracking for dotenv file
 .env
 
