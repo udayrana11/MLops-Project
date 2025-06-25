@@ -11,6 +11,11 @@ from typing import Optional
 from src.pipline.prediction_pipeline import VehicleData, VehicleDataClassifier
 from src.pipline.training_pipeline import TrainPipeline
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
+
+
 # Initialize FastAPI application
 app = FastAPI()
 
