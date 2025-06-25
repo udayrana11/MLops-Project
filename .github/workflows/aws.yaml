@@ -63,3 +63,4 @@ jobs:
         run: |
           docker run -d --restart always --name vehicleproj -p 5000:5000 \
           "${{ steps.login-ecr.outputs.registry }}"/"${{ secrets.ECR_REPO }}":latest
+# just a comment to avoid empty file 
