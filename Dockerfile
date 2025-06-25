@@ -13,5 +13,8 @@ RUN pip install -r requirements.txt
 # Expose the port FastAPI will run on
 EXPOSE 5000
 
+# Set Python path so 'src' is found
+ENV PYTHONPATH=/app
+
 # Run FastAPI server using uvicorn
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "5000"]
